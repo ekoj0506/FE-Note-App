@@ -1,0 +1,1 @@
+export const GRAPHQL_SEVER='http://localhost:4000';
