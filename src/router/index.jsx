@@ -5,14 +5,14 @@ import Login from "../pages/Login";
 import ErrolPage from "../pages/ErrolPage";
 import AuthProvider from "../context/AuthProvider";
 import NoteList from "../components/NoteList";
-import ProtectedRouter from "./protectedRouter";
+import ProtectedRouter from "./ProtectedRouter";
 import path from "path";
 import Note from "../components/Note";
 import { async } from "@firebase/util";
 import { notesLoader} from "../utils/notesUtils";
 import { folderLoader } from "../utils/folderUtils";
 import { addNewNote, noteLoader, saveNote } from "../utils/noteUtils";
-import { useSubmit } from "react-router-dom";
+
 const AuthLayout = () => {
    return( <AuthProvider>  <Outlet/> </AuthProvider>)
 }

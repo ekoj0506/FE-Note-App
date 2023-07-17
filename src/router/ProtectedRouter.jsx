@@ -6,7 +6,7 @@ export default function ProtectedRouter({children})
 {
     if (!localStorage.getItem('accessToken'))
     {  
-        console.log('to login');
+
         return <Navigate to="/login" />
         
     }
