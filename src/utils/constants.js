@@ -1,1 +1,1 @@
-export const GRAPHQL_SEVER='http://localhost:4000';
+export const GRAPHQL_SEVER='https://note-app-nd.onrender.com/';
